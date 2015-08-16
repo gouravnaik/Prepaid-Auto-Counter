@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Auto number:</strong>
+  <%= @auto.auto_number %>
+</p>
+
+<p>
+  <strong>On ride:</strong>
+  <%= @auto.on_ride %>
+</p>
+
+<%= link_to 'Edit', edit_auto_path(@auto) %> |
+<%= link_to 'Back', autos_path %>

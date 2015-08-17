@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+
 //= require chosen-jquery
 //= require scaffold
 //= require_tree .
